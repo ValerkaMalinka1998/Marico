@@ -22,7 +22,7 @@ header,
 footer,
 section {
   padding: 50px 0;
-  border: 2px solid var(--btn-sub);
+  /* border: 2px solid var(--btn-sub); */
 }
 
 
@@ -156,6 +156,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   color: var(--bs-white);
   font-weight: 500;
+  font-size: 20px;
 }
 
 .dropdown-menu {
@@ -227,7 +228,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 15px;
   background-color: #0FC65C;
   border-radius: 50%;
-  
+  border: 1px solid rgba(57, 178, 41, 0.3);
 }
 
 .online__circle__block {
@@ -294,6 +295,9 @@ h1, h2, h3, h4, h5, h6 {
 } */
 
 /* connectContent */
+.block {
+  border: 1px solid gold;
+}
 
 .connect__list {
   list-style: none;
@@ -316,4 +320,61 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
   border: 1px solid white;
 
+}
+/* expertOpion */
+
+.expert__opinion{
+  padding: 100px 0;
+}
+
+/* audience */
+
+.audience {
+  min-height: 800px;
+  display: flex; align-items: center;
+  background-image: url(/img/audienceBG.png);
+}
+
+.audience__descr {
+  font-weight: 600;
+  font-size: 35px;
+}
+
+/* getStart */
+.getStart {
+  margin: 100px 0;
+}
+
+.getStart__logo {
+ height: 100px;
+}
+
+.logo {
+ height: 100%;
+}
+
+.getStart__title {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.getStart__descr {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.getStart__btn {
+  min-width: 200px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* footer */
+
+.footer__mail {
+  text-decoration: none;
+  color: var(--color-g);
+  font-size: 20px;
+  font-weight: 400;
 }
