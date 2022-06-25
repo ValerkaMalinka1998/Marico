@@ -140,6 +140,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
+.link-reset {
+  text-decoration: none;
+  color: white;
+}
+
 .navbar__item {
   margin-right: 40px;
 }
@@ -178,6 +183,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-login {
   color: var(--bs-white);
+  padding: 10px;
+  font-size: 18px;
 }
 
 .navbar-toggler {
@@ -205,7 +212,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-perfect {
   min-width: 150px;
-  padding: 10px;
+  padding: 15px 40px;
+  font-size: 20px;
 }
 
 .btn-start {
@@ -377,4 +385,117 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-g);
   font-size: 20px;
   font-weight: 400;
+}
+
+/* -------------About_US------------------ */
+
+.admin__help h3 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.admin__help__descr {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.bb-gray {
+  border-top: 1px solid #666666;
+}
+
+/* Team */
+
+.twitter__link {
+  color: var(--bs-white);
+  text-decoration: none;
+}
+
+/* ------------------BLOG--------------- */
+ 
+.content__source {
+  margin-bottom: 300px;
+}
+
+.social__network__block {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #707070;
+  padding: 20px;
+  border-radius: 5%;
+  height: 300px;
+}
+
+
+.social__descr {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.btn__social {
+  margin-left: auto;
+  color: #4A7DE3;
+  background-color: #102142;
+  border-radius: 5%;
+}
+
+.btn__social:hover {
+  color: #fff;
+  border-color: #0d6efd;
+}
+
+/* ---------------PRICE------------ */
+
+.price__list__block {
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+
+  background-color: #131313;
+  border: 1px solid white; 
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.price__list__block p {
+  font-size: 18px;
+}
+
+.plan__feature__item::before {
+  content: url(/img/Shape-7.png);
+  display: inline-block; 
+}
+
+.price__month h3 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.price__month p {
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+.btn__price {
+  width: 90%;
+  padding: 20px;
+  
+  color: var(--bs-white);
+  border: 3px solid #3C82F4;
+  border-radius: 10px;
+}
+
+.price__list__block:hover {
+  border: none;
+  background-color: #3C82F4;
+}
+
+.price__list__block:hover .btn__price {
+  color: black;
+  border: none;
+  background-color: white;
+}
+
+.price__list__block:hover p {
+  color: white;
 }
